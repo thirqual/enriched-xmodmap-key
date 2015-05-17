@@ -1,7 +1,7 @@
 # enriched-xmodmap-key
 An example of a xmodmap keymap with accents, greek, maths, and more.
 
-To apply the script,
+To test the script,
 1) first save your current xmodmap configuration with the command
 xkbcomp $DISPLAY xkb.dump
 which will create a backup file for your current keyboard mapping
@@ -10,6 +10,8 @@ xkbcomp xkb_custom $DISPLAY
 
 To remove the script, run the command
 xkbcomp xkb.dump $DISPLAY
+
+To automatically load the script at start-up, create a script as appropriate for your desktop environment.
 
 Current features:
 - ctrl on caps lock
